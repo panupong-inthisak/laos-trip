@@ -155,4 +155,4 @@ export const credits = [
   ['river', 'Basile Morin', 'CC BY-SA 4.0'],
 ]
 
-export const img = (k) => `/img/${k}.jpg`
+export const img = (k) => `${import.meta.env.BASE_URL}img/${k}.jpg`
